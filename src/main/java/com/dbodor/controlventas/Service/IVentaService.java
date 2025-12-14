@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IVentaService {
 
-    List<VentaDTO> GetVenta();
+    List<VentaDTO> getVenta();
     VentaDTO createVenta(VentaDTO ventaDto);
     VentaDTO updateVenta(Long id, VentaDTO ventaDto);
     void deleteVenta(Long id);

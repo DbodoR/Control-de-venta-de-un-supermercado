@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface ISucursalService {
 
-    List<SucursalDTO> GetSucursales();
+    List<SucursalDTO> getSucursales();
     SucursalDTO createSucursal(SucursalDTO sucursalDto);
     SucursalDTO updateSucursal(Long id, SucursalDTO sucursalDto);
     void deleteSucursal(Long id);
